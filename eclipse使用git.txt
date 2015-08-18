@@ -1,0 +1,25 @@
+有的eclipse已经自带了GIt了，就不用安装了。如果，想重新安装，
+可以先卸载GIT，卸载不同eclipse卸载不一样：
+1.在Eclipse中依次点击菜单"Help"->"About Eclipse"。
+弹出图1所示对话框，点击"Installation Details"按钮，
+弹出图2所示对话框。选中要卸载的插件（按住Ctrl可多选），
+点击"Uninstall..."按钮。
+选择好需要卸载的插件后，点击Uninstall，进行卸载。
+ctrl+鼠标左键可以多选哈
+
+1.卸载完后，进行安装Git，和安装一般插件过程一样：
+》》help——Install new software
+在弹出的框里面，输入git下载地址：http://download.eclipse.org/egit/updates/
+
+安装好后，进行，一个简单配置，填入我们的用户名和邮箱
+》》Preferences》Team》Git>Configuration
+
+点击Add Entry，在弹出框里面输入key和value的值
+key，名字填写：user.name,value是你的名字。
+邮箱：user.email  value:你的邮箱账号.你提交代码时候，
+会自动提取这些信息，和代码一起发送到git远程仓库
+
+source ref
+refs/heads/master
+distination ref
+refs/heads/master
